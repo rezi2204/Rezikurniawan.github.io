@@ -1,0 +1,7 @@
+---
+deployment:
+  task:
+    - export DEPLOYMENT=/home/@rezi251/My Repls
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp style.css $DEPLOYPATH
+    - /bin/cp -R img $DEPLOYPATH
